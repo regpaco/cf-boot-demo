@@ -1,0 +1,6 @@
+---
+applications:
+- name: cf-scale-boot2
+  memory: 512M
+  instances: 1
+  host: cf-scale-boot2-yj
