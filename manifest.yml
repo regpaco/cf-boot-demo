@@ -1,6 +1,7 @@
 ---
 applications:
 - name: cf-scale-boot
+  build-pack: java_buildpack
   memory: 512M
   instances: 1
   host: cf-scale-boot-yj
